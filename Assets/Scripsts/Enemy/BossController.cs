@@ -47,6 +47,7 @@ public class BossController : MonoBehaviour
     //Stage areas
     [SerializeField]
     private Transform stage;
+    public Transform stingerSpawnLocation;
 
     [SerializeField]
     GameObject beeGameObjectPrefab;
@@ -128,10 +129,10 @@ public class BossController : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, players.Length -1);
         Vector3 myPos = transform.position;
         Vector3 playerPos = players[randomIndex].transform.position;
-        Vector3 direction = Vector3.Normalize(playerPos - myPos);
+        Vector3 direction = Vector3.Normalize(playerPos - stingerSpawnLocation.transform.position);
 
         //shoot a projectile at that enemy
-        GameObject newStinger = Instantiate(stingerPrefab, myPos, Quaternion.identity);
+        GameObject newStinger = Instantiate(stingerPrefab, stingerSpawnLocation.transform.position, Quaternion.identity);
         Rigidbody stingerRB = newStinger.GetComponent<Rigidbody>();
         stingerRB.AddForce(direction * stingerSpeed);
 
