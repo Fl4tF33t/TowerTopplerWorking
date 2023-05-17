@@ -53,6 +53,7 @@ public class BossController : MonoBehaviour
     GameObject beeGameObjectPrefab;
     [SerializeField]
     Transform spawnLocation;
+    float timer;
 
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,7 @@ public class BossController : MonoBehaviour
         isMoving = true;
         bossData.OnHealthChange += BossData_OnHealthChange;
         InvokeRepeating("StingerAttack", 2, stingerAttackRate);
+        timer = 300;
     }
 
     private void BossData_OnHealthChange(object sender, BossData.OnHealthChangeEventArgs e)
@@ -82,7 +84,7 @@ public class BossController : MonoBehaviour
             isAttackable = false;
             SmashAttack(pathIndex);
         }
-        if (e.health <= 100 && doOnce3)
+        if (e.health <= 100 && doOnce3 && timer<0)
         {
             doOnce3 = false;
             isAttackable = false;
@@ -95,7 +97,8 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movement(pathIndex);   
+        Movement(pathIndex);
+        timer -= Time.deltaTime;
     }
 
     private void Movement(int index)

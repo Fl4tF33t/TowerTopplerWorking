@@ -1,12 +1,28 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 811a20a9c8edb1048bcc65bc0b638e6f
+=======
+<<<<<<< HEAD
+guid: 8bedc1d325be508459a5500e2fbb8256
+=======
+guid: 811a20a9c8edb1048bcc65bc0b638e6f
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
+<<<<<<< Updated upstream
     enableMipMap: 0
+=======
+<<<<<<< HEAD
+    enableMipMap: 1
+=======
+    enableMipMap: 0
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,6 +52,18 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+=======
+>>>>>>> Stashed changes
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -43,6 +71,10 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +83,21 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< Updated upstream
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
+=======
+<<<<<<< HEAD
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+=======
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -62,15 +106,33 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
+<<<<<<< Updated upstream
   applyGammaDecoding: 1
   cookieLightType: 2
+=======
+<<<<<<< HEAD
+  applyGammaDecoding: 0
+  cookieLightType: 0
+=======
+  applyGammaDecoding: 1
+  cookieLightType: 2
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< Updated upstream
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +144,15 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< Updated upstream
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +164,27 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< Updated upstream
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,7 +197,15 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< Updated upstream
     spriteID: 5e97eb03825dee720800000000000000
+=======
+<<<<<<< HEAD
+    spriteID: 
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 
