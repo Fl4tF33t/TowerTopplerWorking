@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &43719398
 Transform:
   m_ObjectHideFlags: 0
@@ -452,12 +452,12 @@ MonoBehaviour:
       points:
       - {x: -0.028791726, y: 3.4061127, z: 0}
       - {x: 2.2626321, y: 4.069414, z: 0}
-      - {x: 4.467309, y: -1.8572744, z: 0}
-      - {x: 7.381796, y: -2.5607772, z: 0}
-      - {x: 7.9093766, y: -2.6881254, z: 0}
-      - {x: -5.932799, y: -2.5880547, z: 0}
-      - {x: -6.7770033, y: -2.6081548, z: 0}
-      - {x: -7.622809, y: -2.628293, z: 0}
+      - {x: 4.432875, y: -0.84466624, z: 0}
+      - {x: 7.347362, y: -1.548169, z: 0}
+      - {x: 7.874943, y: -1.6755173, z: 0}
+      - {x: -6.174558, y: -1.5635847, z: 0}
+      - {x: -7.0187626, y: -1.5836848, z: 0}
+      - {x: -7.864568, y: -1.603823, z: 0}
       - {x: -0.5084971, y: 3.267252, z: 0}
       isClosed: 1
       space: 1
@@ -473,7 +473,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 0
       flipNormals: 0
-    vertexPathUpToDate: 1
+    vertexPathUpToDate: 0
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -980,7 +980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &600103253
 Transform:
   m_ObjectHideFlags: 0
@@ -1302,7 +1302,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 0
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 22.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
