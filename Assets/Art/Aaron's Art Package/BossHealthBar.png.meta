@@ -1,12 +1,40 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+guid: f46e4c1c942a7ea43a436314cb0f89bc
+=======
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
 guid: c7c4b3430b01a634590548426a71e9f9
+=======
+guid: d30bf790a7fc9a6499293a1a8fa0ef55
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
     enableMipMap: 1
+=======
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+    enableMipMap: 1
+=======
+    enableMipMap: 0
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,6 +64,14 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     wrapU: 0
     wrapV: 0
     wrapW: 0
@@ -43,6 +79,24 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+=======
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +105,27 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
+=======
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+=======
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -101,13 +173,45 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
     spriteID: 
+=======
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+    spriteID: 
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> Stashed changes
+<<<<<<< Updated upstream
+=======
+>>>>>>> 4beacaea24a28ce6928882b211eb059ffec024ce
+>>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class BossData : MonoBehaviour
 {
@@ -40,5 +41,13 @@ public class BossData : MonoBehaviour
         {
             health = CurrentHealth()
         }); ;
+    }
+
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 }

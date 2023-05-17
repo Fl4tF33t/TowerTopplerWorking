@@ -2818,6 +2818,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 2133058043
       objectReference: {fileID: 0}
+    - target: {fileID: 328120304308311736, guid: dc93e7cd4d7c0704a9a6ac8f6ce9f59b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 328120304308311736, guid: dc93e7cd4d7c0704a9a6ac8f6ce9f59b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2133058043
+      objectReference: {fileID: 0}
     - target: {fileID: 328120304356109657, guid: dc93e7cd4d7c0704a9a6ac8f6ce9f59b, type: 3}
       propertyPath: m_SortingLayer
       value: 6
