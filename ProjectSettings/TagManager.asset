@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GameMusic
+  - PlayerAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 303344413
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: World
+    uniqueID: 1148445373
+    locked: 0
+  - name: Platform4
+    uniqueID: 1624555937
+    locked: 0
+  - name: Platform3
+    uniqueID: 245026359
+    locked: 0
+  - name: Platform2
+    uniqueID: 2335611837
+    locked: 0
+  - name: Platform1
+    uniqueID: 3433432661
+    locked: 0
+  - name: Boss
+    uniqueID: 2133058043
+    locked: 0
+  - name: Player
+    uniqueID: 4246971539
+    locked: 0
