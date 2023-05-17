@@ -1480,8 +1480,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4373064, y: 1.9058492, z: 1}
-  m_Center: {x: -0.093708515, y: -0.015617967, z: 0}
+  m_Size: {x: 1.8179922, y: 2.1108344, z: 10}
+  m_Center: {x: -0.09858894, y: -0.049782157, z: 0}
 --- !u!114 &716916690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1494,9 +1494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b64667a0f8d7464ebd8b081747d02e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightAttack: 5
-  heavyAttack: 15
-  specialAttack: 15
+  lightAttack: 1
+  heavyAttack: 50
+  specialAttack: 300
   key: 0
   canHeavyAttack: 0
   whenAttackDoesDamage: 0.8
@@ -1748,8 +1748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 85, y: -91}
-  m_SizeDelta: {x: 397.8846, y: 23.5425}
+  m_AnchoredPosition: {x: 92.03284, y: -91.351685}
+  m_SizeDelta: {x: 411.9503, y: 24.2458}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1111751125
 MonoBehaviour:
@@ -2498,7 +2498,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1783082957
 MeshRenderer:
@@ -2662,8 +2662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 85, y: -91}
-  m_SizeDelta: {x: 397.8846, y: 23.5425}
+  m_AnchoredPosition: {x: 92.03284, y: -91.351685}
+  m_SizeDelta: {x: 411.9503, y: 24.2458}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877373382
 MonoBehaviour:

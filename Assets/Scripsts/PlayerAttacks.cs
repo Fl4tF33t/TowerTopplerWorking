@@ -18,9 +18,9 @@ public class PlayerAttacks : MonoBehaviour
 
     //AttackNumbers
     [SerializeField]
-    int lightAttack = 5;
+    int lightAttack = 3;
     [SerializeField]
-    int heavyAttack = 15;
+    int heavyAttack = 50;
     [SerializeField]
     int specialAttack = 15;
 
