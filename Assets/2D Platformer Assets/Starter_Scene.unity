@@ -1499,9 +1499,9 @@ MonoBehaviour:
   heavyAttackAudio: {fileID: 8300000, guid: 3eeb29312cb1fae45b6cfa84b2462424, type: 3}
   healthDamageAudio: {fileID: 8300000, guid: 4a65433331c348a41855300ffe787db4, type: 3}
   griddyAudio: {fileID: 8300000, guid: 75b13937d2689a94399c5254d3b6219a, type: 3}
-  lightAttack: 1
+  lightAttack: 2
   heavyAttack: 50
-  specialAttack: 300
+  specialAttack: 160
   key: 98
   canHeavyAttack: 0
   whenAttackDoesDamage: 0.8
