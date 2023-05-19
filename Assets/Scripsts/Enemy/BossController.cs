@@ -72,25 +72,25 @@ public class BossController : MonoBehaviour
 
     private void BossData_OnHealthChange(object sender, BossData.OnHealthChangeEventArgs e)
     {
-        if(e.health <= 240 && doOnce)
+        if(e.health <= 260 && doOnce)
         {
             doOnce = false;
             isAttackable = false;
             SmashAttack(pathIndex);
         }
-        if (e.health <= 190 && doOnce1)
+        if (e.health <= 140 && doOnce1)
         {
             doOnce1 = false;
             isAttackable = false;
             SmashAttack(pathIndex);
         }
-        if (e.health <= 140 && doOnce2)
+        if (e.health <= 50 && doOnce2)
         {
             doOnce2 = false;
             isAttackable = false;
             SmashAttack(pathIndex);
         }
-        if (e.health <= 100 && doOnce3 && timer<0)
+        if (e.health <= 10 && doOnce3 && timer<0)
         {
             doOnce3 = false;
             isAttackable = false;
