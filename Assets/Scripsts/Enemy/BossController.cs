@@ -6,6 +6,10 @@ using System;
 
 public class BossController : MonoBehaviour
 {
+    AudioSource audioSource;
+    public AudioClip stingerAudio;
+    
+
     public event EventHandler OnSmashAttack;
     public PathCreator[] pathCreator;
 
@@ -58,6 +62,7 @@ public class BossController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         isMoving = true;
         bossData.OnHealthChange += BossData_OnHealthChange;
         InvokeRepeating("StingerAttack", 2, stingerAttackRate);
@@ -127,6 +132,7 @@ public class BossController : MonoBehaviour
         //stops the movement
         StartCoroutine(AttackStart(2f));
 
+        audioSource.PlayOneShot(stingerAudio);
         //Finds all the players and a random location
         GameObject[] players = GameObject.FindGameObjectsWithTag("PlayerAttack");
         int randomIndex = UnityEngine.Random.Range(0, players.Length -1);
