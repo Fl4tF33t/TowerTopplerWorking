@@ -5,7 +5,15 @@ using System;
 
 public class PlayerAttacks : MonoBehaviour
 {
+    public AudioClip lightAttackAudio;
+    public AudioClip heavyAttackAudio;
+    public AudioClip healthDamageAudio;
+
+    PlayerData playerData;
+
+    AudioSource audioSource;
     public event EventHandler<OnAttackEventArgs> OnAttack;
+
     public class OnAttackEventArgs : EventArgs
     {
         public int damageAttack;
@@ -32,6 +40,22 @@ public class PlayerAttacks : MonoBehaviour
     float whenAttackDoesDamage;
 
     private float timeDelay = 1.5f;
+
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        playerData = GetComponent<PlayerData>();
+    }
+
+    private void Start()
+    {
+        playerData.OnHealthChange += PlayerData_OnHealthChange;
+    }
+
+    private void PlayerData_OnHealthChange(object sender, PlayerData.OnHealthChangeEventArgs e)
+    {
+        audioSource.PlayOneShot(healthDamageAudio);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -63,6 +87,7 @@ public class PlayerAttacks : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             OnLightAttack?.Invoke(this, EventArgs.Empty);
+            audioSource.PlayOneShot(lightAttackAudio);
             if (canAttack && BossController.isAttackable)
             {
                 OnAttack?.Invoke(this, new OnAttackEventArgs
@@ -77,6 +102,7 @@ public class PlayerAttacks : MonoBehaviour
             if (timeDelay < 0)
             {
                 OnHeavyAttack?.Invoke(this, EventArgs.Empty);
+                audioSource.PlayOneShot(heavyAttackAudio);
                 StartCoroutine(CanDoDamage());
 
             }
