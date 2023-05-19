@@ -8,6 +8,7 @@ public class BossController : MonoBehaviour
 {
     AudioSource audioSource;
     public AudioClip stingerAudio;
+    public AudioClip stageBreaking;
     
 
     public event EventHandler OnSmashAttack;
@@ -139,9 +140,18 @@ public class BossController : MonoBehaviour
         Vector3 myPos = transform.position;
         Vector3 playerPos = players[randomIndex].transform.position;
         Vector3 direction = Vector3.Normalize(playerPos - stingerSpawnLocation.transform.position);
+        float directionRot = 90f;
+        if(playerPos.x < 0)
+        {
+            directionRot = -90;
+        }else
+        {
+            directionRot = 90;        
+        }
+
 
         //shoot a projectile at that enemy
-        GameObject newStinger = Instantiate(stingerPrefab, stingerSpawnLocation.transform.position, Quaternion.identity);
+        GameObject newStinger = Instantiate(stingerPrefab, stingerSpawnLocation.transform.position, Quaternion.Euler(0, 0, directionRot));
         Rigidbody stingerRB = newStinger.GetComponent<Rigidbody>();
         stingerRB.AddForce(direction * stingerSpeed);
 
@@ -158,11 +168,13 @@ public class BossController : MonoBehaviour
     IEnumerator StartSmashAttack()
     {
         OnSmashAttack?.Invoke(this, EventArgs.Empty);
+
         yield return new WaitForSeconds(2f);
         isSmashing = false;
         isStaging = true;
         isAttackable = true;
         Destroy(bases[baseIndex].gameObject);
+        audioSource.PlayOneShot(stageBreaking);
         baseIndex++;
         yield return new WaitForSeconds(2f);
         Instantiate(beeGameObjectPrefab, spawnLocation.transform.position, Quaternion.identity);

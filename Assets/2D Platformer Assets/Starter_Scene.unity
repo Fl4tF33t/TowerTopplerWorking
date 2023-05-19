@@ -1776,6 +1776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stingerAudio: {fileID: 8300000, guid: de17c3539482eeb408b9284c3ca78b70, type: 3}
+  stageBreaking: {fileID: 8300000, guid: c35bb39881c495541adcac254dfa592c, type: 3}
   pathCreator:
   - {fileID: 185886087}
   - {fileID: 43719399}
