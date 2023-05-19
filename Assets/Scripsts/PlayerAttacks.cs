@@ -8,6 +8,7 @@ public class PlayerAttacks : MonoBehaviour
     public AudioClip lightAttackAudio;
     public AudioClip heavyAttackAudio;
     public AudioClip healthDamageAudio;
+    public AudioClip griddyAudio;
 
     PlayerData playerData;
 
@@ -111,14 +112,16 @@ public class PlayerAttacks : MonoBehaviour
         if (Input.GetKeyDown(key))
         {
             OnSpecialAttack?.Invoke(this, EventArgs.Empty);
-            if (canAttack && BossController.isAttackable)
+            audioSource.PlayOneShot(griddyAudio);
+            /*if (canAttack && BossController.isAttackable)
             {
                 Debug.Log("small attack");
                 OnAttack?.Invoke(this, new OnAttackEventArgs
                 {
                     damageAttack = specialAttack
                 });
-            }
+            }*/
+
         }
     }
     IEnumerator CanDoDamage()

@@ -5,6 +5,7 @@ using UnityEngine;
 public class BGmusic : MonoBehaviour
 {
     public static BGmusic instance;
+    AudioSource audioSource;
 
     void Awake()
     {
@@ -15,5 +16,11 @@ public class BGmusic : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    public void StopMusic()
+    {
+        audioSource.Pause();
     }
 }

@@ -14,6 +14,12 @@ public class AttackVisuals : MonoBehaviour
         animator = GetComponent<Animator>();
         playerAttacks.OnLightAttack += PlayerAttacks_OnLightAttack;
         playerAttacks.OnHeavyAttack += PlayerAttacks_OnHeavyAttack;
+        playerAttacks.OnSpecialAttack += PlayerAttacks_OnSpecialAttack;
+    }
+
+    private void PlayerAttacks_OnSpecialAttack(object sender, System.EventArgs e)
+    {
+        animator.SetTrigger("isGriddy");
     }
 
     private void PlayerAttacks_OnHeavyAttack(object sender, System.EventArgs e)

@@ -1496,12 +1496,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightAttackAudio: {fileID: 8300000, guid: 617caab0fab10554b92c44b3506e2aef, type: 3}
-  heavyAttackAudio: {fileID: 8300000, guid: aa97ceed013113d47b40600efb4be291, type: 3}
+  heavyAttackAudio: {fileID: 8300000, guid: 3eeb29312cb1fae45b6cfa84b2462424, type: 3}
   healthDamageAudio: {fileID: 8300000, guid: 4a65433331c348a41855300ffe787db4, type: 3}
+  griddyAudio: {fileID: 8300000, guid: 75b13937d2689a94399c5254d3b6219a, type: 3}
   lightAttack: 1
   heavyAttack: 50
   specialAttack: 300
-  key: 0
+  key: 98
   canHeavyAttack: 0
   whenAttackDoesDamage: 0.8
 --- !u!114 &716916691

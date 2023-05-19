@@ -692,7 +692,6 @@ GameObject:
   - component: {fileID: 1011402889}
   - component: {fileID: 1011402888}
   - component: {fileID: 1011402890}
-  - component: {fileID: 1011402891}
   m_Layer: 0
   m_Name: Music
   m_TagString: GameMusic
@@ -712,7 +711,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 25e2c78c1f956574caebe471062a2872, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.52
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -821,18 +820,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63c338e5ae63bfb478d7f7a9efd88432, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1011402891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011402887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd702f5e61a50bb479e8d76490071d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1058465318
@@ -1410,6 +1397,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1433859301}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1011402890}
+        m_TargetAssemblyTypeName: BGmusic, Assembly-CSharp
+        m_MethodName: StopMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
